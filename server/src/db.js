@@ -2,7 +2,10 @@
 export const teams = [
 	{
 		id:'ARI',
-		name:'Arizona Diamondbacks'
+		name:'Arizona Diamondbacks',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/arizona-diamondbacks.svg",
+    primaryColor: "#A71930",
+    secondaryColor: "#000000"
 	},
 	{
 		id:'ATL',
@@ -14,7 +17,10 @@ export const teams = [
 	},
 	{
 		id:'BOS',
-		name:'Boston Red Sox'
+		name:'Boston Red Sox',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/boston-red-sox.svg",
+    primaryColor: "#0D2B56",
+    secondaryColor: "#BD3039"
 	},
 	{
 		id:'CHC',
@@ -26,11 +32,17 @@ export const teams = [
 	},
 	{
 		id:'CIN',
-		name:'Cincinnati Reds'
+		name:'Cincinnati Reds',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/cincinnati-reds.svg",
+    primaryColor: "#C6011F",
+    secondaryColor: "#000000"
 	},
 	{
 		id:'CLE',
-		name:'Cleveland Indians'
+		name:'Cleveland Indians',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/cleveland-indians.svg",
+    primaryColor: "#E31937",
+    secondaryColor: "#002B5C"
 	},
 	{
 		id:'COL',
@@ -46,7 +58,10 @@ export const teams = [
 	},
 	{
 		id:'HOU',
-		name:'Houston Astros'
+		name:'Houston Astros',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/houston-astros.svg",
+    primaryColor: "#0D2B56",
+    secondaryColor: "#BD3039"
 	},
 	{
 		id:'KCR',
@@ -70,11 +85,17 @@ export const teams = [
 	},
 	{
 		id:'NYY',
-		name:'New York Yankees'
+		name:'New York Yankees',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/new-york-yankees.svg",
+    primarycolor: "#003087",
+    secondarycolor: "#e4002b"
 	},
 	{
 		id:'OAK',
-		name:'Oakland Athletics'
+		name:'Oakland Athletics',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/oakland-athletics.svg",
+    primaryColor: "#003831",
+    secondaryColor: "#EFB21E"
 	},
 	{
 		id:'PHI',
@@ -86,7 +107,10 @@ export const teams = [
 	},
 	{
 		id:'SDP',
-		name:'San Diego Padres'
+		name:'San Diego Padres',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/san-diego-padres.svg",
+    primaryColor: "#002D62",
+    secondaryColor: "#FEC325"
 	},
 	{
 		id:'SEA',
@@ -94,7 +118,10 @@ export const teams = [
 	},
 	{
 		id:'SFG',
-		name:'San Francisco Giants'
+		name:'San Francisco Giants',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/san-francisco-giants.svg",
+    primaryColor: "#FD5A1E",
+    secondaryColor: "#000000"
 	},
 	{
 		id:'STL',
@@ -110,7 +137,10 @@ export const teams = [
 	},
 	{
 		id:'TOR',
-		name:'Toronto Blue Jays'
+		name:'Toronto Blue Jays',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/toronto-blue-jays.svg",
+    primaryColor: "#134A8E",
+    secondaryColor: "#1D2D5C"
 	},
 	{
 		id:'WSN',

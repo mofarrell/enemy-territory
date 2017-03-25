@@ -52,6 +52,15 @@ const teamType = new GraphQLObjectType({
         return teamDataEntry ? teamDataEntry.division_full : null;
       }
     },
+    primary_color: { 
+      type: GraphQLString,
+      resolve: (team) => team.primaryColor,
+    },
+    secondary_color: { 
+      type: GraphQLString,
+      resolve: (team) => team.secondaryColor,
+    },
+    logo: {type: GraphQLString},
   }),
 });
 
