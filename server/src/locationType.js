@@ -22,10 +22,10 @@ export const locationType = new GraphQLObjectType({
     groupName: {
       type: GraphQLString,
       resolve: (location) => {
-        if (location.groupName !== null) {
+        if (location.groupName != null) {
           return location.groupName;  
         }
-        const team = teams[location.teamId];
+        const team = teams.find(team => team.id == location.teamId);
         const teamName = team.name;
         const names = ['Fans', 'Party Ppl!', 'Backers', 'Lovers'];
         return teamName + ' ' + names[Math.floor(Math.random() * names.length)];
@@ -44,7 +44,7 @@ export const locationType = new GraphQLObjectType({
     team: {
       type: teamType,
       resolve: (location) => {
-        return teams[location.teamId];
+        return teams.find(team => team.id == location.teamId);
       }
     }
   }),
