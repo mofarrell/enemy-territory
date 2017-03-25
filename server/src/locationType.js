@@ -20,6 +20,7 @@ export const locationType = new GraphQLObjectType({
     longitude: {type: GraphQLString},
     name: {type: GraphQLString},
     groupName: {type: GraphQLString},
+    message: {type: GraphQLString},
     teamId: {type: GraphQLString},
     team: {
       type: teamType,
@@ -38,6 +39,7 @@ export const locationInputType = new GraphQLInputObjectType({
     teamId: {type: GraphQLString},
     name: {type: GraphQLString},
     groupName: {type: GraphQLString},
+    message: {type: GraphQLString},
   }),
 });
 
