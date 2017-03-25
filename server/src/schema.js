@@ -32,29 +32,25 @@ const rootFields = {
       return teams.find(team => team.id == id);
     }
   },
+  // Hack - doing the mutation as a root field :(
+  addLocation: {
+    type: locationType,
+    args: {
+      location: {
+        type: locationInputType,
+      }
+    },
+    resolve: (object, {location}) => {
+      locations.push(location);
+      return location;
+    }
+  },
 };
 
 const schema = new GraphQLSchema({
   query: new GraphQLObjectType({
     name: 'QueryRoot',
     fields: rootFields,
-  }),
-  mutation: new GraphQLObjectType({
-    name: 'MutationRoot',
-    fields: {
-      addLocation: {
-        type: locationType,
-        args: {
-          location: {
-            type: locationInputType,
-          }
-        },
-        resolve: (object, {location}) => {
-          locations.push(location);
-          return location;
-        }
-      }
-    }
   }),
 });
 
