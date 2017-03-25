@@ -19,8 +19,27 @@ export const locationType = new GraphQLObjectType({
     latitude: {type: GraphQLString},
     longitude: {type: GraphQLString},
     name: {type: GraphQLString},
-    groupName: {type: GraphQLString},
-    message: {type: GraphQLString},
+    groupName: {
+      type: GraphQLString,
+      resolve: (location) => {
+        if (location.groupName !== null) {
+          return location.groupName;  
+        }
+        const team = teams[location.teamId];
+        const teamName = team.name;
+        const names = ['Fans', 'Party Ppl!', 'Backers', 'Lovers'];
+        return teamName + ' ' + names[Math.floor(Math.random() * names.length)];
+      }
+    },
+    message: {
+      type: GraphQLString,
+      resolve: (location) => {
+        if (location.message !== null) {
+          return location.message;
+        }
+        return 'Let\'s watch the game! PARTY!1!11!';
+      }
+    },
     teamId: {type: GraphQLString},
     team: {
       type: teamType,
@@ -39,15 +58,7 @@ export const locationInputType = new GraphQLInputObjectType({
     teamId: {type: GraphQLString},
     name: {type: GraphQLString},
     groupName: {type: GraphQLString},
-    message: {
-      type: GraphQLString,
-      resolve: (location) => {
-        if (location.message !== null) {
-          return location.message;
-        }
-        return 'Come watch the game tonight! LET\'S PARTY!1!!';
-      }
-    },      
+    message: {type: GraphQLString},
   }),
 });
 
