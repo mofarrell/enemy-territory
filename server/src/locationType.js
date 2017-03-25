@@ -39,7 +39,15 @@ export const locationInputType = new GraphQLInputObjectType({
     teamId: {type: GraphQLString},
     name: {type: GraphQLString},
     groupName: {type: GraphQLString},
-    message: {type: GraphQLString},
+    message: {
+      type: GraphQLString,
+      resolve: (location) => {
+        if (location.message !== null) {
+          return location.message;
+        }
+        return 'Come watch the game tonight! LET'S PARTY!1!!';
+      }
+    },      
   }),
 });
 
