@@ -45,7 +45,7 @@ export const locationInputType = new GraphQLInputObjectType({
         if (location.message !== null) {
           return location.message;
         }
-        return 'Come watch the game tonight! LET'S PARTY!1!!';
+        return 'Come watch the game tonight! LET\'S PARTY!1!!';
       }
     },      
   }),
