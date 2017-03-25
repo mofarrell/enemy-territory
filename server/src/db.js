@@ -9,11 +9,13 @@ export const teams = [
 	},
 	{
 		id:'ATL',
-		name:'Atlanta Braves'
+		name:'Atlanta Braves',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/atlanta-braves.svg",
 	},
 	{
 		id:'BAL',
-		name:'Baltimore Orioles'
+		name:'Baltimore Orioles',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/baltimore-orioles.svg",
 	},
 	{
 		id:'BOS',
@@ -24,11 +26,13 @@ export const teams = [
 	},
 	{
 		id:'CHC',
-		name:'Chicago Cubs'
+		name:'Chicago Cubs',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/chicago-cubs.svg",
 	},
 	{
 		id:'CHW',
-		name:'Chicago White Sox'
+		name:'Chicago White Sox',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/chicago-white-sox.svg",
 	},
 	{
 		id:'CIN',
@@ -46,15 +50,18 @@ export const teams = [
 	},
 	{
 		id:'COL',
-		name:'Colorado Rockies'
+		name:'Colorado Rockies',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/colorado-rockies.svg",
 	},
 	{
 		id:'DET',
-		name:'Detroit Tigers'
+		name:'Detroit Tigers',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/detroit-tigers.svg",
 	},
 	{
 		id:'MIA',
-		name:'Miami Marlins'
+		name:'Miami Marlins',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/miami-marlins.svg",
 	},
 	{
 		id:'HOU',
@@ -65,23 +72,28 @@ export const teams = [
 	},
 	{
 		id:'KCR',
-		name:'Kansas City Royals'
+		name:'Kansas City Royals',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/kansas-city-royals.svg",
 	},
 	{
 		id:'LAD',
-		name:'Los Angeles Dodgers'
+		name:'Los Angeles Dodgers',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/los-angeles-dodgers.svg",
 	},
 	{
 		id:'MIL',
-		name:'Milwaukee Brewers'
+		name:'Milwaukee Brewers',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/milwaukee-brewers.svg",
 	},
 	{
 		id:'MIN',
-		name:'Minnesota Twins'
+		name:'Minnesota Twins',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/minnesota-twins.svg",
 	},
 	{
 		id:'NYM',
-		name:'New York Mets'
+		name:'New York Mets',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/new-york-mets.svg",
 	},
 	{
 		id:'NYY',
@@ -99,11 +111,13 @@ export const teams = [
 	},
 	{
 		id:'PHI',
-		name:'Philadelphia Phillies'
+		name:'Philadelphia Phillies',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/philadelphia-phillies.svg",
 	},
 	{
 		id:'PIT',
-		name:'Pittsburgh Pirates'
+		name:'Pittsburgh Pirates',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/pittsburgh-pirates.svg",
 	},
 	{
 		id:'SDP',
@@ -114,7 +128,8 @@ export const teams = [
 	},
 	{
 		id:'SEA',
-		name:'Seattle Mariners'
+		name:'Seattle Mariners',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/seattle-mariners.svg",
 	},
 	{
 		id:'SFG',
@@ -125,15 +140,18 @@ export const teams = [
 	},
 	{
 		id:'STL',
-		name:'St. Louis Cardinals'
+		name:'St. Louis Cardinals',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/st-louis-cardinals.svg",
 	},
 	{
 		id:'TBR',
-		name:'Tampa Bay Rays'
+		name:'Tampa Bay Rays',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/tampa-bay-rays.svg",
 	},
 	{
 		id:'TEX',
-		name:'Texas Rangers'
+		name:'Texas Rangers',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/texas-rangers.svg",
 	},
 	{
 		id:'TOR',
@@ -144,7 +162,8 @@ export const teams = [
 	},
 	{
 		id:'WSN',
-		name:'Washington Nationals'
+		name:'Washington Nationals',
+    logo: "http://jim-nielsen.com/teamcolors/static/img/mlb/washington-nationals.svg",
 	},
 ];
 
